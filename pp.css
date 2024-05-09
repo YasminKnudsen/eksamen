@@ -1,0 +1,41 @@
+/* CSS for pp.html */
+body {
+    background-color: #A3B18A;
+}
+
+/* Add color to the navigation bar*/
+.topnav {
+    background-color: #474839;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar*/
+.topnav a {
+    float: left;
+    color: #E3D39E;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 23px;
+    font-family: "italianno", cursive;
+}
+
+/* Change the color of links on hover*/
+.topnav a:hover {
+    background-color: #344E41;
+    color: #E3D39E;
+}
+
+/* Add a color to the active/current link*/
+.topnav a.active {
+    background-color: #474839;
+    color: #E3D39E;
+    font-family: "italianno", cursive;
+}
+
+/* Code for the Italianno font*/
+.italianno-regular {
+    font-family: "Italianno", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
